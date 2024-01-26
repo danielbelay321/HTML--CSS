@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.carosel{
+   
+    width: 800px;
+    padding: 32px 48px 32px 86px;
+    position: relative;
+   
+    box-shadow: 0 12px 30px rgba(0,0,0,25%);
+    background: #087f5b;
+    border-radius: 12px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    gap: 86px;
+}
+
+img{
+    width: 200px;
+   
+    border-radius: 8px;
+    transform: scale(1.5);
+    
+}
+.content{
+  
+    
+    
+}
+
+.tsetimonial-text{
+    line-height: 1.7;
+    font-size: 18px;
+    font-weight: 500;
+    color: #e6fcf5;
+    
+}
+
+.tsetimonial{
+    margin-bottom: 32px;
+}
+
+.tsetimonial-author{
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #c3fae8;
+}
+
+.tsetimonial-job{
+    font-size: 12px;
+    color: #c3fae8;
+}
+
+.btn{
+    width: 40px;
+    height:40px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+  
+  
+  
+}
+
+.btn-icon{
+    width: 24px;
+    height: 24px;
+    stroke: #087f5b;
+}
+
+.btn-left{
+    left: 0;
+   
+    top: 50%;
+    transform: translate(-50% ,-50%);
+}
+
+.btn-right{
+    right: 0;
+   
+    top: 50%;
+    transform: translate(50%,-50%);
+}
+
+.dot{
+    background-color: #fff;
+    border: 2px solid #087f5b;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+}
+
+.controls-dot{
+
+    position: absolute;
+    left: 50%;
+    
+    bottom: 0;
+    transform: translate(50%, 32px);
+    
+   
+    
+}
+
+.dot-fill{
+    background-color: #087f5b;
+}
